@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 import Buefy from 'buefy'
 import 'buefy/lib/buefy.css'
+import 'begeta/css/begeta.min.css'
 
 Vue.use(Buefy)
 Vue.config.productionTip = false

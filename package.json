@@ -12,6 +12,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "begeta": "^0.1.18",
     "buefy": "^0.6.2",
     "firebase": "^4.9.0",
     "vue": "^2.5.2",
