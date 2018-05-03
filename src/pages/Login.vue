@@ -8,11 +8,10 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 export default {
-  methods: {
-    login () {
-      console.log('login')
-    }
-  }
+  methods: mapActions({
+    login: 'auth/login'
+  })
 }
 </script>
