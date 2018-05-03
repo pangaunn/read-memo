@@ -8,10 +8,7 @@ export default {
     user: {}
   },
   getters: {
-    user: state => state.user,
-    uid: state => state.user.uid,
-    route: state => state.route,
-    isReady: state => state.isReady
+    uid: state => state.user.uid
   },
   mutations: {
     setReady (state) {
