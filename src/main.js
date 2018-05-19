@@ -9,7 +9,9 @@ import 'begeta/css/begeta.min.css'
 import firebase from 'firebase'
 import firebaseConfig from '../config/firebase'
 import store from './store'
+import { sync } from 'vuex-router-sync'
 
+sync(store, router)
 Vue.prototype.$firebase = firebase.initializeApp(firebaseConfig)
 Vue.use(Buefy)
 Vue.config.productionTip = false
