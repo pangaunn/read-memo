@@ -12,7 +12,8 @@ export default {
     init: 'auth/init'
   }),
   created () {
-    this.init()
+    // this.init()
+    console.log(this.$store.dispatch)
   }
 }
 </script>
